@@ -1,0 +1,28 @@
+<head>
+  <title>Olivia's Notes</title>
+</head>
+<h1>重要概念</h1>
+
+<b>网络是如何工作的</b>
+<p>网络就是一群互相通讯的电脑。 当一个人去一个web页面如 www.google.com， 其计算机发送一个 <em>HTTP请求</em> 给 <em>服务器</em>。 服务器发现适当的HTML文档并将其发送回用户的计算机，那就是<em>浏览器</em>解释页面并将其显示在用户的屏幕上。
+  <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/e-48329854/m-48480496">这个视频</a>对此能很好的解释。
+</p>
+
+<b>HTML</b>
+<p>HTML是<em>超文本标记语言</em>的缩写。 HTML文件形式的大多数用于网页的内容。HTML文档包含了<em>文档内容</em> 描述了"你看到的"和 <em>标记</em> 描述"怎么样的".
+<a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/m-48724340"> 
+ 这个视频</a>对此能很好的解释。
+</p>
+
+<b>标签与元素</b>
+<p>HTML文档由HTML<b>元素</b>组成. 在写HTML时, 我们使用HTML<b>标签</b>告诉浏览器的每个元素的类型 .
+  <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/m-48723444"> 这个视频</a>对此能很好的解释。
+</p>
+
+<b>为什么电脑是愚蠢的</b>
+<p>电脑是愚蠢的,因为他们只从字面解释指令。这使他们很无情,因为一个小错误,程序员在程序中可以造成巨大的问题。
+</p>
+
+<b>内联vs块元素</b>
+<p>HTML元素除了<b>inline内联的</b> 就是<b>block块状的</b>. 块元素形成一个“看不见的盒子”的内容。
+</p>
