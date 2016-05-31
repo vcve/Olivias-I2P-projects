@@ -1,1 +1,1 @@
-# Udacity-course-resource-for-Chinese-students
+# Udacity-course-homework
