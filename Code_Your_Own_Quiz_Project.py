@@ -51,18 +51,19 @@ def choose_level():
 # Game_play function: ask first question and check if it is correct or not
 def start_quiz(quiz, blanks, answers):
     """
-    1.blanks is parts_of_lyrics, show the quiz to the player\
-    2.then count blanks\
-    3.range(1,5) means [1,2,3,4,5]\
+    1.blanks = parts_of_lyrics, show the quiz to the player\
+    2.then count blanks by len()\
+    3.count how many quiz left by range(1,5) (means [1,2,3,4,5])\
     4.input() means show player the question
     """
     print (quiz)
     num_blanks = len(blanks)
     for quiz_num in range(0, num_blanks):
-        user_input = input("What's " + blanks[quiz_num] + "? ")
+        user_input = input("What's " + blanks[quiz_num] + "? ") #show player the quiz number
+        #if the answer incorrect
         while answer_incorrect(user_input, answers[quiz_num]):
             user_input = input("oohoh.. incorrect. Try again. What's " + blanks[quiz_num] + "? ")
-            quiz = quiz.replace(blanks[quiz_num], answers[quiz_num])
+            quiz = quiz.replace(blanks[quiz_num], answers[quiz_num]) #if answer correct show him next number
             print (quiz)
 		#num_blanks - 1 since Python is 0 based
             if quiz_num == num_blanks - 1:
@@ -81,3 +82,15 @@ def main():
 	choose_level()
 	
 main()
+
+#Summary
+#In this project I use the functions includ:
+#def()
+#while()
+#not in()
+#if() elif() else()
+#for()in()
+#input()
+#len()
+#.lower()
+#range()
