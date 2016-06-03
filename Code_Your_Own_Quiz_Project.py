@@ -54,7 +54,7 @@ def start_quiz(quiz, blanks, answers):
     1.blanks is parts_of_lyrics, show the quiz to the player\
     2.then count blanks\
     3.range(1,5) means [1,2,3,4,5]\
-    4.input() means show the player question
+    4.input() means show player the question
     """
     print (quiz)
     num_blanks = len(blanks)
@@ -67,7 +67,6 @@ def start_quiz(quiz, blanks, answers):
 		#num_blanks - 1 since Python is 0 based
             if quiz_num == num_blanks - 1:
                 print ("Congratulations! You finished the quiz.")
-
 
 # Compare answer function: convert user_input and correct_answer to lower case and compare if it is incorrect
 def answer_incorrect(user_input, correct_answer):
