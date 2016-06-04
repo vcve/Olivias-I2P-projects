@@ -8,11 +8,16 @@
 
 .app {
 	display: flex;
-	width: 100%;
+	width: 50%;
 	height: 100%;
 }
 
 .box {
 	font-style: italic;
 	width: 50%;
+}
+
+.img {
+	width: 30%;
+	height: 30%;
 }
