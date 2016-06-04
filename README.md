@@ -12,7 +12,7 @@ Hope I would be a coder in the future.<br>
 </p>
 
 <p>Stage 2 project is <a href="https://github.com/vcve/Olivias-I2P-projects/blob/master/Stage-2-Code-Your-Own-Quiz/Code_Your_Own_Quiz_Project.py">HERE</a><br>
-  I don't konw how to perform a python on website yet,may be somedays I would change to a website to show it.
+(I don't konw how to perform a python on website yet, maybe somedays I would change to a website to show it.)
 </p>
 
 
