@@ -66,7 +66,7 @@ def start_quiz(quiz, blanks, answers):
             quiz = quiz.replace(blanks[quiz_num], answers[quiz_num]) #if answer correct show him next number
             print (quiz)
 		#num_blanks - 1 since Python is 0 based
-            if quiz_num == num_blanks - 1:
+        if quiz_num == num_blanks - 1:
                 print ("Congratulations! You finished the quiz.")
 
 # Compare answer function: convert user_input and correct_answer to lower case and compare if it is incorrect
