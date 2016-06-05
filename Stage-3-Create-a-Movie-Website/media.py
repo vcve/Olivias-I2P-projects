@@ -9,6 +9,12 @@
 import webbrowser
 
 class Movie():
+    """ This is provides a way to store movie related information.
+    This class including movie title, storyline, poster picture and Youtube trailer.
+    """
+    
+    VALID_RATINGS = ["G","PG","PG-13","R"]
+    
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
         self.storyline = movie_storyline
@@ -18,4 +24,7 @@ class Movie():
 
 
     def show_trailer(self):
-        webbrowser.open(self.trailer_youtube_url)
+        """show_trailer() is for open the trailer url in the web brower
+        when the string run the web browser will be opened
+        """
+        webbrowser.open(self.trailer_youtube_url) 
